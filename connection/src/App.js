@@ -10,13 +10,14 @@ import ComponentC from './Components/ComponentC';
 // import UseStateCounter from './Components/HOOKS/UseStateCounter';
 import PrevCounter from './Components/HOOKS/PrevCounter';
 import HookInputObject from './Components/HOOKS/HookInputObject';
+import HookArray from './Components/HOOKS/HookArray';
 //if we remove the comment and run ew see the default value is replace by other 
 function App() {
   return (
     <div className="App">
 
     
-  <HookInputObject/>
+<HookArray/>
     </div>
   );
 }
