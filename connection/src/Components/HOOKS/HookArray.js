@@ -2,6 +2,9 @@ import React from 'react';
 
 function HookArray() {
     const [items,setitems]=React.useState([]);
+    React.useEffect(()=>{
+        document.title=`${items.value}`
+    })
     const additems=()=>{
      setitems([...items,{
          id:items.length,

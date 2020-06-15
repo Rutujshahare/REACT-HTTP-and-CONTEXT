@@ -12,13 +12,14 @@ import PrevCounter from './Components/HOOKS/PrevCounter';
 import HookInputObject from './Components/HOOKS/HookInputObject';
 import HookArray from './Components/HOOKS/HookArray';
 import HookUseeffect from './Components/HOOKS/HookUseeffect';
+import Challenge from './Components/HOOKS/Challenge';
 //if we remove the comment and run ew see the default value is replace by other 
 function App() {
   return (
     <div className="App">
 
-    
-<HookUseeffect/>
+<Challenge/>
+
     </div>
   );
 }
