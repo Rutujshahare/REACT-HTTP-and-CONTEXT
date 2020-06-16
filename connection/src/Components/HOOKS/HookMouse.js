@@ -11,6 +11,11 @@ function HookMouse() {
     React.useEffect(()=>{
       console.log('mouse hook updated')
       window.addEventListener('mousemove',logmouseposition)
+
+      return ()=> {
+      console.log('unmounted code')
+      window.removeEventListener('mousemove',logmouseposition)
+      }
     },[])
     return (
         <div>

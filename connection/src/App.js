@@ -11,13 +11,15 @@ import ComponentC from './Components/ComponentC';
 
 import ConditionalHook from './Components/HOOKS/ConditionalHook';
 import HookMouse from './Components/HOOKS/HookMouse';
+import HookContainer from './Components/HOOKS/HookContainer';
 
 //if we remove the comment and run ew see the default value is replace by other 
 function App() {
   return (
     <div className="App">
 
-<HookMouse/>
+<HookContainer/>
+
     </div>
   );
 }
