@@ -8,18 +8,15 @@ import ComponentC from './Components/ComponentC';
 // import { UserProvider } from './UserContext';
 // import CounterComponent from './Components/HOOKS/CounterComponent';
 // import UseStateCounter from './Components/HOOKS/UseStateCounter';
-import PrevCounter from './Components/HOOKS/PrevCounter';
-import HookInputObject from './Components/HOOKS/HookInputObject';
-import HookArray from './Components/HOOKS/HookArray';
-import HookUseeffect from './Components/HOOKS/HookUseeffect';
-import Challenge from './Components/HOOKS/Challenge';
+
+import ConditionalHook from './Components/HOOKS/ConditionalHook';
+
 //if we remove the comment and run ew see the default value is replace by other 
 function App() {
   return (
     <div className="App">
 
-<Challenge/>
-
+<ConditionalHook/>
     </div>
   );
 }
