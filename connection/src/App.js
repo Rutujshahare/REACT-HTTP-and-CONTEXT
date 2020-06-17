@@ -4,6 +4,9 @@ import Reducer from './Components/HOOKS/Reducer';
 import UseReducer from './Components/HOOKS/UseReducer1';
 import UseReducer1 from './Components/HOOKS/UseReducer1';
 import MultipleReducer from './Components/HOOKS/MultipleReducer';
+import './App.css';
+import FetchApi from './Components/HOOKS/FetchApi';
+import DataFetchingtwo from './Components/HOOKS/DataFetchingtwo';
 
 
 
@@ -21,7 +24,7 @@ function App() {
      <ContextC/>
      </ChannelContext.Provider>
      </UserContext.Provider> */}
-<MultipleReducer/>
+<DataFetchingtwo/>
     </div>
   );
 }
