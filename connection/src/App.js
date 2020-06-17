@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import PostList from './Components/PostList';
-import Fetch from './Components/Fetch';
-import PostForm from './Components/Postform';
-import ComponentC from './Components/ComponentC';
-// import { UserProvider } from './UserContext';
-// import CounterComponent from './Components/HOOKS/CounterComponent';
-// import UseStateCounter from './Components/HOOKS/UseStateCounter';
 
-import ConditionalHook from './Components/HOOKS/ConditionalHook';
-import HookMouse from './Components/HOOKS/HookMouse';
-import HookContainer from './Components/HOOKS/HookContainer';
+import Reducer from './Components/HOOKS/Reducer';
+import UseReducer from './Components/HOOKS/UseReducer1';
+import UseReducer1 from './Components/HOOKS/UseReducer1';
+import MultipleReducer from './Components/HOOKS/MultipleReducer';
+
+
+
+export const UserContext=React.createContext()
+export const ChannelContext=React.createContext()
+
 
 //if we remove the comment and run ew see the default value is replace by other 
 function App() {
   return (
     <div className="App">
-
-<HookContainer/>
-
+      {/* <UserContext.Provider value={'kshitij shahare'}>
+        <ChannelContext.Provider value={'shreyash shahare'}>
+   
+     <ContextC/>
+     </ChannelContext.Provider>
+     </UserContext.Provider> */}
+<MultipleReducer/>
     </div>
   );
 }
